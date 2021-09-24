@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Milonga&family=Roboto&display=swap');
 body {
 	font-family: 'Roboto', Arial, sans-serif;
+    background-color: yellow;
 }
 header, footer, main {
 	max-width: 66em;
@@ -21,13 +22,13 @@ a {
 	text-decoration: none;
 }
 a:hover {
-	color: rgba(78, 78, 78, 1);
+	color: yellow;
 }
 footer p a {
 	color: rgba(255, 255, 255, 1);
 }
 footer p a:hover {
-	color: rgba(78, 78, 78, 1);
+	color: yellow;
 }
 #mainColumns {
 	display: grid;
