@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Milonga&family=Roboto&display=swap');
 body {
 	font-family: 'Roboto', Arial, sans-serif;
+    color: yellow;
 }
 header, footer, main {
 	max-width: 66em;
