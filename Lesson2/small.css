@@ -18,11 +18,11 @@ h1 {
 	font-family: 'Milonga', "Arial Black", fantasy;
 }
 a {
-	color: yellow;
+	color: yellowgreen;
 	text-decoration: none;
 }
 a:hover {
-	color: yellowgreen;
+	color: yellow;
 }
 footer p a {
 	color: rgba(255, 255, 255, 1);
