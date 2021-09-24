@@ -1,0 +1,83 @@
+/*general settings*/
+body{
+    background-color: darkslategrey;
+
+}
+header,
+footer {
+    color: white;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 7px 7px;
+    text-align: center;
+}
+footer a{
+    color:greenyellow;
+}
+section {
+    border-radius: 10px 10px 10px 10px ;
+    background-color: lightgray;
+}
+section p{
+    vertical-align: bottom;
+    background-color: lightgray;
+    margin: 16px;
+    font-family: 'Nanum Myeongjo', serif;
+}
+h3 {
+    margin-left: 16px;
+    font-size: 1.4em;
+}
+main h2{
+    text-align: center;
+    color: rgb(250, 241, 253);
+    
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    padding: 15px 5px;
+}
+a {
+    color: #7D3F3F;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+section img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Default for phone view*/
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main section {
+    margin: 16px;
+}
+
+/* Tablet Views */
+@media only screen and (min-width: 650px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main section {
+        margin: 20px;
+    }
+}
+
+/* Desktop Views */
+@media only screen and (min-width: 1000px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    main section {
+        margin: 24px;
+    }
+
+
+}
