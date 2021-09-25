@@ -18,7 +18,7 @@ h1 {
 	font-family: 'Milonga', "Arial Black", fantasy;
 }
 a {
-	color: yellow;
+	color: black;
 	text-decoration: none;
 }
 a:hover {
@@ -39,7 +39,7 @@ footer p a:hover {
 section {
 	margin: 5px;
 	border: 1px solid white; 
-	background-color: black;
+	background-color: lightgreen;
 	width: auto;
 	border-radius: 10px;
 }
@@ -47,15 +47,18 @@ h3 {
     text-align: center;
     margin: 0;
 	background-color: black;
-	color: rgba(255, 255, 255, 1);
+	color: white;
 	border-radius: 10px 10px 0px 0px;
 	padding: 10px;
 }
 section p {
     margin: 15px;
-    color: white;
+    color: black;
 }
 picture img {
-	max-width: 90%;
-	padding: 15px;
+	width: 90%;
+    height: 60% ;
+    display: block;
+    margin: 0 auto;
+
 } 
