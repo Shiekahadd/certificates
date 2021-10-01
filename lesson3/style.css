@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Exo+2:wght@800&display=swap');
 
 :root {
-    --main-color: #2e8b57;
-    --secondary-color: #add8e6;
-    --accent-color: #90ee90;
-    --default-light: #ffffff;
-    --default-dark: #2f2f2f;
+    --main-color: #000000;
+    --secondary-color: #FFFF00;
+    --accent-color: #FFFF00;
+    --default-light: #90EE90;
+    --default-dark: #000000;
 
     --header-font: 'Exo 2', sans-serif;
     --paragraph-font: 'Comfortaa', sans-serif;
 }
 
-
+/* Random styling for html and body */
 html { background-color: var(--secondary-color); }
 body {
     margin: 0;
@@ -34,7 +34,7 @@ body > * {
     grid-column: 3;
 }
 
-
+/* Global Font Styles */
 h1 {
     font-size: 2.8em;
 }
@@ -54,7 +54,7 @@ p, span, div, li, td, a {
     font-family: var(--paragraph-font);
 }
 
-
+/* Styles for the header and elements inside the header */
 header {
     z-index: 10;
     padding: 1rem;
@@ -85,7 +85,7 @@ nav > ul {
     box-shadow: 0 0 10px var(--default-dark);
 }
 nav a {
-    
+    /* It doesn't work to have this one with the other css block */
     height: calc(100% - 2em);
 }
 nav a, span.navR {
@@ -118,6 +118,7 @@ nav a:hover, span.navH {
     z-index: 7;
 }
 
+/* Styles for the main and the children of main */
 main {
     padding: 1px 1em;
     background-color: var(--default-light);
@@ -137,7 +138,8 @@ section.grid {
     grid-template-columns: 256px 1fr;
 }
 section.grid > img {
-    width: 73%; 
+    width: 73%; /* I just had to match this percent
+                   with the temperature on the logo */
     align-self: center;
     justify-self: center;
 }
