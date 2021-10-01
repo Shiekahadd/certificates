@@ -1,9 +1,9 @@
 :root {
-    --main-color: #000000;
-    --secondary-color: #FFFF00;
-    --accent-color: #FFFF00;
-    --default-light: #90EE90;
-    --default-dark: #000000;
+    --main-color: #2e8b57;
+    --secondary-color: #add8e6;
+    --accent-color: #90ee90;
+    --default-light: #ffffff;
+    --default-dark: #2f2f2f;
 
     --header-font: 'Exo 2', sans-serif;
     --paragraph-font: 'Comfortaa', sans-serif;
