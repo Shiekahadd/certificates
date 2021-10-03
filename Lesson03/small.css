@@ -51,7 +51,7 @@ footer p a {
 footer p a:hover {
 	color:  #87aeb4;
 }
-/* background colors */
+
 .backgroundWhite {
 	background-color: #ffffff;
 }
@@ -67,7 +67,7 @@ footer p a:hover {
 .backgroundBlack {
 	background-color: #000000;
 }
-/* text colors */
+
 .textWhite {
 	color: #ffffff;
 }
@@ -83,7 +83,7 @@ footer p a:hover {
 .textBlack {
 	color: #000000;
 }
-/* tezt sizes */
+
 .size16 {
 	font-size: 16px;
 }
@@ -99,7 +99,7 @@ footer p a:hover {
 .size40 {
 	font-size: 40px;
 }
-/* color-scheme table settings */
+
 #colorTable {
 	border-collapse: collapse;
 	margin: 15px;
@@ -117,7 +117,7 @@ footer p a:hover {
 #colorTable tr td:nth-child(5) {
 	display: none;
 }
-/*typography table settings */
+
 #typographyTable {
 	border-collapse: collapse;
 	margin: 15px;
@@ -136,7 +136,7 @@ footer p a:hover {
 #typographyTable tr th:nth-child(5) {
 	display: none;
 }
-/* navigation area - top */
+
 nav {
 	background-color: #f2be54;	
 	text-align: center;
@@ -150,7 +150,7 @@ nav ul {
 }
 nav ul li {
 	padding: 15px;
-	flex: 1 1 auto; /* nav buttons span full width*/
+	flex: 1 1 auto; 
 }
 nav ul li a {
 	padding: 15px;
