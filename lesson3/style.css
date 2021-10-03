@@ -40,18 +40,22 @@ h1 {
 }
 h2 {
     font-size: 1.75em;
+    text-align: center;
 }
 h3 {
     font-size: 1.25em;
+    text-align: center;
 }
 h4 {
     font-size: 1.1em;
+    
 }
 h1, h2, h3, h4, th {
     font-family: var(--header-font);
 }
 p, span, div, li, td, a {
     font-family: var(--paragraph-font);
+    
 }
 
 
@@ -293,6 +297,8 @@ h4 + p {
 
 
 
+
+
 footer {
     box-shadow: 0 0 10px var(--default-dark);
     background-color: var(--main-color);
@@ -320,3 +326,4 @@ footer a:hover {
 #too-small {
     display: none;
 }
+
