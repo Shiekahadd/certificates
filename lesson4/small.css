@@ -9,7 +9,7 @@ footer, main {
 header, nav {
 	margin: 0 auto;
 }
-/* heading */
+
 header {
 	background-color: #153e5c;
 	display: flex;
@@ -35,7 +35,7 @@ header img {
 	font-style: italic;
 	font-size: 12px;
 }
-/*header navigation */
+
 nav {
 	background-color: #f2be54;
 }
@@ -73,7 +73,7 @@ nav a:hover {
 	border-left: 4px solid #153e5c;
 	border-right: 4px solid #153e5c;
 }
-/* temp main divs */
+
 main {
 	display: flex;
 	flex-direction: column;
@@ -84,8 +84,9 @@ main div {
 	background-color: #cacfd4;
 	margin: 15px;
 	padding: 15px;
+    font-style: italic;
 }
-/* footer */
+
 footer {
 	background-color: #f2be54;
 	display: flex;
@@ -96,7 +97,7 @@ footer {
 footer p {
 	font-size: 14px;
 }
-/* typography */
+
 h1 {
 	font-size: 20px;
 	color: #153e5c;
@@ -104,6 +105,7 @@ h1 {
 h2 {
 	font-size: 16px;
 	color: #153e5c;
+    text-align: center;
 }
 h3 {
 	font-size: 14px;
