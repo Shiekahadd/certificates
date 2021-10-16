@@ -39,8 +39,8 @@ header {
 	justify-content: center;
 }
 header img {
-	width: 100;
-	height:	100;
+	width: 300;
+	height:	300;
 }
 .headings {
 	display: flex;
@@ -124,7 +124,7 @@ footer p {
 	background: #cacfd4;
 	border: 2px solid #000000;
 	box-shadow: 0 0 20px #000000;
-	display: none;
+	display: grid;
 	grid-template-columns: auto auto;
 }
 #weatherSummary h3 {
