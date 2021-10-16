@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
 	font-family: 'Roboto', Arial, sans-serif;
 }
@@ -18,12 +18,10 @@ h1 {
 h2 {
 	font-size: 16px;
 	color: #153e5c;
-	
 }
 h3 {
 	font-size: 14px;
 	color: #153e5c;
-	
 }
 p, label {
 	font-size: 12px;
@@ -106,7 +104,6 @@ nav a:hover {
 }
 footer p {
 	font-size: 14px;
-	
 }
 
 #heroArea {
@@ -134,12 +131,10 @@ footer p {
 #weatherSummary p, #weatherSummary label {
 	margin: 0;
 	padding: 2px;
-    
 }
 #weatherSummary label {
 	text-align: right;
 	font-weight: bold;
-    
 }
 
 #forcastArea {
@@ -188,7 +183,7 @@ footer p {
 	margin-top: 10px;
 }
 #articleArea img {
-	max-width: 300px;
+	max-width: 532px;
 	width: 100%;
 	height:	auto;
 	display: block;
@@ -225,7 +220,6 @@ footer p {
 .socialIcon{
 	width: 20px;
 	height:	auto;
-	 
 }
 
 #prestonPancakes {
