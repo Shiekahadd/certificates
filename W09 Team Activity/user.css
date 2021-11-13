@@ -3,6 +3,15 @@ body {
   background-color: black;
   font-family: 'Poppins', sans-serif;
 }
+
+
+#person>* {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: black;
+    
+}
 #person {
   width: 700px;
   margin: 120px auto 120px;
@@ -15,14 +24,6 @@ body {
   -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
   -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
   text-align: left;
-}
-
-#person>* {
-    font-size: 20px;
-    line-height: 30px;
-    margin-bottom: 30px;
-    color: black;
-    
 }
 
 #name {

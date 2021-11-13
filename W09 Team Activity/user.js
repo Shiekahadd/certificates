@@ -1,31 +1,6 @@
-const monthNames = [
-    'January',
-    'February',
-    'March',
-    'April',
-    'May',
-    'June',
-    'July',
-    'August',
-    'September',
-    'October',
-    'November',
-    'December',
-  ];
+
   
-  function getPerson() {
-    try {
-      start_time = new Date().getTime();
-      fetch('https://randomuser.me/api')
-        .then((response) => response.json())
-        .then((data) => {
-          end_time = new Date().getTime() - start_time;
-          drawPerson(data.results[0], end_time);
-        });
-    } catch (e) {
-      console.log(e);
-    }
-  }
+  
   
   function drawPerson(person, timeElapsed) {
     document.getElementById('img').setAttribute('src', person.picture.large);
@@ -40,4 +15,33 @@ const monthNames = [
     document.getElementById('bd').innerHTML =
       dateOfBirth.getDate() + ' of ' + monthNames[dateOfBirth.getMonth()];
     document.getElementById('time').innerHTML = timeElapsed + 'ms';
+  }
+
+  const monthNames = [
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December',
+  ];
+
+  function getPerson() {
+    try {
+      start_time = new Date().getTime();
+      fetch('https://randomuser.me/api')
+        .then((response) => response.json())
+        .then((data) => {
+          end_time = new Date().getTime() - start_time;
+          drawPerson(data.results[0], end_time);
+        });
+    } catch (e) {
+      console.log(e);
+    }
   }
