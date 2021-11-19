@@ -3,10 +3,10 @@ fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     
-    document.getElementById('temperaturePreston').textContent = jsObject.main.temp;
+    document.getElementById('temperaturePreston').textContent = Math.round(jsObject.main.temp);
     document.getElementById('desPreston').textContent = jsObject.weather[0].description;
     document.getElementById('humidityPreston').textContent = jsObject.main.humidity;
-    document.getElementById('windSpeedPreston').textContent = jsObject.wind.speed;
+    document.getElementById('windSpeedPreston').textContent = Math.round(jsObject.wind.speed);
     
       let temperature = parseFloat(jsObject.main.temp);
       let windspeed = parseFloat(jsObject.wind.speed);
