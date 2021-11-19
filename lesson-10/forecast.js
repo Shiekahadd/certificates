@@ -12,7 +12,7 @@ fetch(apiForecastURL)
     for (let day = 0; day <= 4; day ++) {
         let d = new Date(newList[day].dt_txt);
         document.getElementById(`dayWeek${day+1}`).textContent = dayOfWeek[d.getDay()];
-        document.getElementById(`forecast${day+1}`).textContent = newList[day].main.temp;
+        document.getElementById(`forecast${day+1}`).textContent = Math.round (newList[day].main.temp);
 
         const imgalt = newList[day].weather[0].description;
         const imagesrc = 'https://openweathermap.org/img/wn/' + newList[day].weather[0].icon + '@2x.png';
