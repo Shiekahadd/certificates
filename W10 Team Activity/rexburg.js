@@ -1,7 +1,7 @@
 const url =
    "https://api.openweathermap.org/data/2.5/forecast?id=5605242&units=imperial&appid=744fe90a723fbf1d7ad8053159c6a1d5";
 
-const dofW = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]; 
+const dofW = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Frid", "Sat"]; 
 
 
 function cDay(weatherObjct) {
@@ -13,7 +13,7 @@ function cDay(weatherObjct) {
    
 
    let cTemp = document.createElement("p");
-   cTemp.textContent = `Air Temprature: ${weatherData.main.temp} °F`;
+   cTemp.textContent = `Air Temp: ${Math.round(weatherData.main.temp)} °F`;
 
    let cWeather = document.createElement("img");
    let imagesrc =
@@ -24,13 +24,13 @@ function cDay(weatherObjct) {
    cWeather.setAttribute("alt", weatherData.weather[0].description);
 
    let cFeels = document.createElement("p");
-   cFeels.textContent = `Feels-like: ${weatherData.main.feels_like} °F`;
+   cFeels.textContent = `Feels-like: ${Math.round(weatherData.main.feels_like)} °F`;
 
    let tempHigh = document.createElement("p");
-   tempHigh.textContent = `Maximum Temperature: ${weatherData.main.temp_max} °F`;
+   tempHigh.textContent = `Max Temp: ${Math.round(weatherData.main.temp_max)} °F`;
 
    let tempLow = document.createElement("p");
-   tempLow.textContent = `Minimum Temperature: ${weatherData.main.temp_min} °F`;
+   tempLow.textContent = `Min Temp: ${Math.round(weatherData.main.temp_min)} °F`;
 
    let todayElem = document.querySelector("#today");
 
@@ -63,7 +63,7 @@ fetch(url)
       for (let i = 0; i < size; i++) {
           if (forecast[i].dt_txt.includes('15:00:00')) {
               let highTempElem = document.createElement('p');
-              highTempElem.textContent = `Maximum Temperature: ${forecast[i].main.temp_max} °F`;
+              highTempElem.textContent = `Max Temp: ${Math.round(forecast[i].main.temp_max)} °F`;
   
               let fiveWeather = document.createElement('img');
               let imagesrc = "https://openweathermap.org/img/w/" + forecast[i].weather[0].icon + ".png";
