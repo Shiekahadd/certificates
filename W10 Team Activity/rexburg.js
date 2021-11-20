@@ -1,7 +1,7 @@
 const url =
    "https://api.openweathermap.org/data/2.5/forecast?id=5605242&units=imperial&appid=744fe90a723fbf1d7ad8053159c6a1d5";
 
-const dofW = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]; 
+const dofW = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]; 
 
 
 function cDay(weatherObjct) {
@@ -63,7 +63,7 @@ fetch(url)
       for (let i = 0; i < size; i++) {
           if (forecast[i].dt_txt.includes('15:00:00')) {
               let highTempElem = document.createElement('p');
-              highTempElem.textContent = `High Temp: ${forecast[i].main.temp_max} °F`;
+              highTempElem.textContent = `Maximum Temperature: ${forecast[i].main.temp_max} °F`;
   
               let fiveWeather = document.createElement('img');
               let imagesrc = "https://openweathermap.org/img/w/" + forecast[i].weather[0].icon + ".png";
