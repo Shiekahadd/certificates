@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Soda Springs site page for week 11 in WDD 230."> 
+    <meta name="description" content="Fish Haven site for week 11 in WDD 230."> 
     <title>Idaho Met Service</title>
     <link rel="shortcut icon" href="sitelogo.png">
     <link rel="stylesheet" href="normalize.css">
@@ -15,43 +15,40 @@
 </head>
 <body>
     <header>
-        <a href="./"><img src="sitelogo.png" alt="site logo"></a>
+        <a href="./"><img src="sitelogo.png" alt="Logo for site"></a>
         <section class="headings">
             <h1>Idaho Met Service</h1>
             <div class="moto">Serving you every season</div>
         </section>        
-    </header>  
+    </header>   
     <nav>
         <ul class="navigation">
             <li><a class="ham" href="#">☰ Menu</a></li>
             <li><a href="https://shiekahadd.github.io/lesson9/index.html">Home</a></li>
             <li><a href="https://shiekahadd.github.io/lesson-10/preston-10.html">Preston</a></li>
-            <li class="active"><a href="sodasprings.html">Soda Springs</a></li>
-            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="https://shiekahadd.github.io/lesson-11/sodasprings.html">Soda Springs</a></li>
+            <li class="active"><a href="fishhaven.html">Fish Haven</a></li>
             <li><a href="https://shiekahadd.github.io/lesson8/stormcenter.html">Storm Center</a></li>
             <li><a href="https://shiekahadd.github.io/lesson7/gallery-7.html">Gallery</a></li>
         </ul>
     </nav>
     <main>
-        <h2>Soda Springs Idaho</h2>
+        <h2>Fish Haven</h2>
         <div id="heroArea">
-
             <picture>
                 <source media="(min-width:1000px)" srcset="large.jpg">
                     <source media="(min-width:600px)" srcset="medium.jpg">
             <source media="(min-width:300px)" srcset="small.jpg">
            
-            <img src="small.jpg" alt="soda springs image">          </picture> 
+            <img src="small.jpg" alt="fish haven image">          </picture> 
 
-           
-           
             <section id="weatherSummary">
                 <h3><u>Weather Summary</u></h3>
-                <label>Currently:</label> <p><span id="desSoda"></span></p>
-                <label>Temperature:</label> <p><span id="temperatureSoda"></span>&deg;F</p>
+                <label>Currently:</label> <p><span id="desFish"></span></p>
+                <label>Temperature:</label> <p><span id="temperatureFish"></span>&deg;F</p>
                 <label>Wind Chill:</label><p><span id="windChill"></span></p>
-                <label>Humidity:</label> <p><span id="humiditySoda"></span>%</p>
-                <label>Wind Speed:</label> <p><span id="windSpeedSoda"></span> mph</p>
+                <label>Humidity:</label> <p><span id="humidityFish"></span>%</p>
+                <label>Wind Speed:</label> <p><span id="windSpeedFish"></span> mph</p>
             </section>
         </div>
         <div id="forcastArea">
@@ -59,50 +56,52 @@
             <div id="forcastFive">
                 <div class="forcastCol">
                     <p class="forcastDay"><span id="dayWeek1"></span></p>
-                    <img id="icon1" src="forecast.svg" alt="weather pic">
+                    <img id="icon1" src="weather.svg" alt="weather pic">
                     <p class="forcastTemp"><span id="forecast1"></span>&deg;F</p>
                 </div>
                 <div class="forcastCol">
                     <p class="forcastDay"><span id="dayWeek2"></span></p>
-                    <img id="icon2" src="forecast.svg" alt="weather pic">
+                    <img id="icon2" src="weather.svg" alt="weather pic">
                     <p class="forcastTemp"><span id="forecast2"></span>&deg;F</p>
                 </div>
                 <div class="forcastCol">
                     <p class="forcastDay"><span id="dayWeek3"></span></p>
-                    <img id="icon3" src="forecast.svg" alt="weather pic">
+                    <img id="icon3" src="weather.svg" alt="weather pic">
                     <p class="forcastTemp"><span id="forecast3"></span>&deg;F</p>
                 </div>
                 <div class="forcastCol">
                     <p class="forcastDay"><span id="dayWeek4"></span></p>
-                    <img id="icon4" src="forecast.svg" alt="weather pic">
+                    <img id="icon4" src="weather.svg" alt="weather pic">
                     <p class="forcastTemp"><span id="forecast4"></span>&deg;F</p>
                 </div>
                 <div class="forcastCol">
                     <p class="forcastDay"><span id="dayWeek5"></span></p>
-                    <img id="icon5" src="forecast.svg" alt="weather pic">
+                    <img id="icon5" src="weather.svg" alt="weather pic">
                     <p class="forcastTemp"><span id="forecast5"></span>&deg;F</p>
                 </div>
             </div>
         </div>
         <div class="eventBorder">
-            <div class="eventArea"><h3>Upcoming Events</h3><span id="eventSoda"></span></div>
+            <div class="eventArea"><h3>Upcoming Events</h3><span id="eventFish"></span></div>
         </div>
         <div id="articleArea">    
-            <h3>Soda Springs Idaho’s Geyser Park</h3>
+            <h3>Little Fish Haven, Idaho, is paradise for residents</h3>
             <figure class="articleImg">
-                <img src="geyser.jpg" alt="picture subject of article" loading="lazy">
+                <img src="fishhavenarticle.jpg" alt="picture our shy subject of article!" loading="lazy">
             </figure>
-            <p>Adjacent to the popular Oregon Trail, the city of Soda Springs, in the state of Idaho, has a unique attraction called the Soda Springs Geyser. The geographic region has been known for its geothermal activity for a long time. The geyser was discovered in 1937 during an effort to find water naturally for a swimming pool. The geyser was uncovered while drilling into a subterranean chamber that contained a mixture of water and carbon dioxide gas. </p>
-            <p>Today, the Soda Springs geyser goes off every hour on the hour and is controlled manually by the city. Access to view the geyser is free, but one may submit donations in the nearby museum. On average, this geyser normally propels water over 100 feet into the atmosphere with an estimated 2000 gallons of flowing every minute. The water temperature is around 72 degrees Fahrenheit. </p>
-            <p><i>Written by Brigham Young University</i></p>
+            <p>Originally named Rush Creek, Fish Haven is a community along the shores of Bear Lake in Bear Lake County, Idaho, United States of America. It is 2.5 miles (4 km) north of the Utah border. It is a paradise undiscovered. Many people who drive here realize the raw beauty of a place known for being bordered by the shores of a vast natural lake and high desert mountains. </p>
+            <p>In wintertime, the hills outside this little paradise echo with the loud sounds of snow machines. Residents of Fish Haven say that population drops rapidly when things get cold. However, in the summer, thousands of tourists take to the lake's bright blue waters with fishing poles or water skis. There are grocery stores, restaurants, and gift shops in the town. The Bear Lake Regional Commission wants to draw persons to Fish Haven and to promote the entire Bear Lake valley.</p>
+            <p><i>Written By Idaho State Journal</i>
+                <i> (read full article here) ... </i>
+                <a href="https://www.deseret.com/2000/12/26/19546274/little-fish-haven-idaho-is-paradise-for-residents">Fish Haven</a></p>
         </div>
     </main>
     <footer>
         <div id="contactArea">
-            <img id="mapImg" src="sodaspringsmap.JPG" alt="Soda Springs map" loading="lazy">
+            <img id="mapImg" src="fishhavenmap.png" alt="fish haven map" loading="lazy">
             <section id="contactTextArea">
                 <h3>Contact Information</h3>
-                <p>30 N 1st E<br>Soda Springs, ID 83263</p>
+                <p>30 N 1st E<br>Fish Haven, ID 83263</p>
                 <p>☎ 999.999.9999<br>✉ contact@idahometservices.us</p>
                 <div>
                     <a href="https://facebook.com/" target="_blank"><img class="socialIcon" src="facebook.png" alt="facebook" loading="lazy">&ensp;</a>
@@ -116,8 +115,8 @@
             <br><span id="output"></span></p>
         </div> 
     </footer>
-    <script src="event.js"></script>
-    <script src="soda.js"></script>
+    <script src="every.js"></script>
+    <script src="forecast.js"></script>
     <script src="summary.js"></script>
     <script src="event.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
