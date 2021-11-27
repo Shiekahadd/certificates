@@ -201,7 +201,7 @@ footer p {
 	align-items: center;
 }
 #mapImg {
-	display: none;
+	display: grid;
 	height:	auto;
 	justify-self: end;
 	width: 100%;
