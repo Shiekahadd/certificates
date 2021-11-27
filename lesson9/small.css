@@ -29,6 +29,13 @@ a {
 	text-decoration: none;
 }
 
+footer a {
+	color: #f2be54;
+}
+footer a:hover {
+	color: #ffffff;
+}
+
 header {
 	background-color: #153e5c;
 	display: flex;
