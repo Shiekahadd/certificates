@@ -143,6 +143,21 @@ footer p {
 	font-weight: bold;
 }
 
+#storybox {
+    position: absolute; 
+    background-color: #cacfd4;
+	box-shadow: 0 0 20px #000000;	
+	display: block;
+	top: 15px;
+	left: 15px;
+	padding: 2px;
+	margin: 0px 10px 0px 0px;
+    font-family: "Poppins", Helvetica, sans-serif;
+    text-align: left;
+    border: black dotted 5px;
+    border-radius: 10px;
+}
+
 #forcastArea {
 	display: none;
 }
