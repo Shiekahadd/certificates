@@ -148,14 +148,14 @@ footer p {
     background-color: #cacfd4;
 	box-shadow: 0 0 20px #000000;	
 	display: block;
-	top: 15px;
-	left: 15px;
+	top: 10px;
+	left: 10px;
 	padding: 2px;
-	margin: 0px 10px 0px 0px;
-    font-family: "Poppins", Helvetica, sans-serif;
+	margin: 0px 0px 0px 0px;
+    font-family: "Roboto", Arial, sans-serif;
     text-align: left;
-    border: black dotted 5px;
-    border-radius: 10px;
+    border: black dotted 2px;
+    border-radius: 2px;
 }
 
 #forcastArea {
