@@ -11,7 +11,7 @@ fetch(apiURL1)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
-    document.getElementById('yay').textContent = jsObject.weather[0].main;
+    document.getElementById('idahofalls').textContent = jsObject.weather[0].main;
     document.getElementById('temp').textContent = Math.round(
       jsObject.main.temp
     );
@@ -27,7 +27,7 @@ fetch(apiURL2)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
-    document.getElementById('yay2').textContent = jsObject.weather[0].main;
+    document.getElementById('rexburg').textContent = jsObject.weather[0].main;
     document.getElementById('temp2').textContent = Math.round(
       jsObject.main.temp
     );
@@ -39,27 +39,31 @@ fetch(apiURL2)
     );
   });
 
-fetch(apiURL3)
+  fetch(apiURL3)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
-    document.getElementById('yay3').textContent = jsObject.weather[0].main;
-    document.getElementById('temp3').textContent = Math.round(
+    document.getElementById('kansas3').textContent = jsObject.weather[0].main;
+    document.getElementById('kansastemp3').textContent = Math.round(
       jsObject.main.temp
     );
     document.getElementById('hum3').textContent = jsObject.main.humidity;
-    document.getElementById('ws3').textContent = Math.round(jsObject.wind.speed);
-    document.getElementById('wind3').textContent = windchill(
+    document.getElementById('ws3').textContent = jsObject.wind.speed;
+    document.getElementById('kansaswind3').textContent = windchill(
       jsObject.main.temp,
       jsObject.wind.speed
     );
   });
 
+
+
+
+
 fetch(apiURL4)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
-    document.getElementById('yay4').textContent = jsObject.weather[0].main;
+    document.getElementById('oklahomacity').textContent = jsObject.weather[0].main;
     document.getElementById('temp4').textContent = Math.round(
       jsObject.main.temp
     );
@@ -157,4 +161,5 @@ function windchill(t, s) {
     return 'N/A';
   }
 }
+
 
