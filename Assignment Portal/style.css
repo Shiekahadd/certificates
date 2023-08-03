@@ -2,7 +2,7 @@
     font-family: 'Gugi';
   }
   html {
-    background-color: yellow;
+    background-color: lightblue;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
