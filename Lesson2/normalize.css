@@ -17,11 +17,7 @@ main {
   display: block;
 }
 
-header > img {
-  width: 25%;
-  box-shadow: 1px 1px 10px black;
-  border-radius: 5px;
-}
+
 
 h1 {
   font-size: 2em;
